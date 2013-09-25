@@ -1,0 +1,86 @@
+body{
+	padding-top: 85px;
+}
+.weibo-text {
+	//display: inline-block;
+	// position: relative;
+	min-height: 90px;
+	margin-left: 65px;
+	margin-bottom: 0px;
+}
+
+//小头像
+.avatar-md {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	//position: relative;
+	float: left;
+	// & > img{
+	// 	width: 50px;
+	// 	height: 50px;
+	// }
+}
+
+.navbar-nav {
+	.avatars-md{
+		.add-account-btn {
+			display: inline-block;
+			background-color: @gray-light;
+			border-radius: @border-radius-large;
+			border: 2px dashed @gray;
+			&:hover{
+				background-color: @gray-light;
+			};
+		}
+		& > a {
+        	padding: 0px;
+			@media (min-width: @grid-float-breakpoint) {
+				margin-right: 0px;
+				margin-left: floor(@grid-gutter-width / 2);
+				margin-top: ((@navbar-height - @avatar-height) / 2);
+	        	margin-bottom: ((@navbar-height - @avatar-height) / 2);
+			}
+			@media (max-width: @screen-xs-max) {
+				margin: 0px 0px 0px floor(@grid-gutter-width / 2);
+			}
+		}
+	}
+}
+
+.weibo-area {
+	min-width: 500px;
+	// border: 1px solid @gray-light;
+	padding: 15px 10px;
+//	border-radius: @border-radius-large;
+}
+
+.send-weibo {
+	min-width: 500px;
+	padding: 15px 10px;
+	margin-bottom: 20px;
+	.input-weibo {
+		resize:none;
+		display: block;
+  		width: 100%;
+		padding: @padding-base-vertical @padding-base-horizontal;
+		font-size: @font-size-base;
+		line-height: @line-height-base;
+		color: @input-color;
+		background-color: @input-bg;
+  		background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+		border: 1px solid @input-border;
+		border-radius: @input-border-radius;
+	    .box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+	    .transition(~"border-color ease-in-out .15s, box-shadow ease-in-out .15s");
+	    .form-control-focus();
+	}
+	.send-btn {
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: 5px;
+		float: right;
+	}
+}
+
+
