@@ -4,6 +4,7 @@
 	<title>ZhiZhi</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="wb:webmaster" content="d7dbabc668393d82" />
 	<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js"></script>
 	<script type="text/javascript" src="http://lib.sinaapp.com/js/bootstrap/latest/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="http://127.0.0.1/5/Public/CSS/bootstarp.css"/>
@@ -46,7 +47,11 @@
 	</div>
 
 	<div class="container">
-		<div class="col-lg-2 col-md-2 hidden-xs hidden-sm" style="background-color:yellow;">放点什么好呢？</div>
+		<div class="col-lg-2 col-md-2 hidden-xs hidden-sm" style="background-color:yellow;">
+			<a href="http://mwhwww.sinaapp.com/index/login">
+				<img src="http://www.sinaimg.cn/blog/developer/wiki/32.png">
+			</a>
+		</div>
 		<div class="col-lg-10 col-md-10">
 			<div class="send-weibo">
 				<textarea class="input-weibo" rows="3"></textarea>
