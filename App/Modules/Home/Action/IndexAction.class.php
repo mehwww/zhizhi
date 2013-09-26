@@ -4,7 +4,7 @@ class IndexAction extends Action{
 	public function index() {
 		// import('@.Lib.COM.ZhiZhi.SNS.Oauth');
 		// import( 'ORG.ThinkSDK.ThinkOauth' );
-		$sns = Oauth::getInstance( 'sina' );
+		// $sns = Oauth::getInstance( 'sina' );
 		$this->display();
 	}
 	public function login() {

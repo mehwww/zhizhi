@@ -14,10 +14,6 @@ return array (
 			'APP_SECRET' => '0c144684b6702559984b0217699ef959',
 			'CALLBACK'   => URL_CALLBACK,
 		) 
-	);
-
-
-	'OAUTH_SINA' =>array(
 	),
 );
 ?>

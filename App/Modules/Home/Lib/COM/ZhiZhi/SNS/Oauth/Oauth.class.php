@@ -88,7 +88,7 @@ abstract class Oauth{
 		$this->Type = strtoupper(substr($class, 0, strlen($class)-5));
 
 		//获取应用配置
-		$config = C("THINK_SDK_SINA");
+		$config = C("OAUTH")[$this->Type];
 		if(empty($config['APP_KEY']) || empty($config['APP_SECRET'])){
 			throw new Exception('请配置您申请的APP_KEY和APP_SECRET');
 		} else {
