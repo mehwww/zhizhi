@@ -11,7 +11,7 @@
 // | SinaSDK.class.php 2013-02-25
 // +----------------------------------------------------------------------
 
-class SinaSDK extends ThinkOauth{
+class SinaOauth extends Oauth{
 	/**
 	 * 获取requestCode的api接口
 	 * @var string

@@ -10,7 +10,7 @@ return array (
 		'DB_PREFIX'             => 'zz_',    // 数据库表前缀
 		
 		//显示调试信息
-		'SHOW_PAGE_TRACE'       =>false,
+		'SHOW_PAGE_TRACE'       =>true,
 		
 		//URL配置
 		'URL_CASE_INSENSITIVE'  =>true,
